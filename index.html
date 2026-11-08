@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071426">
+  <meta name="description" content="A birthday book made just for you.">
+  <title>A Birthday Book</title>
+  <link rel="stylesheet" href="birthday.css">
+  <script src="birthday.js" defer></script>
+</head>
+<body>
+  <section id="opening" aria-label="Halaman pembuka">
+    <div class="stars"></div>
+    <div class="opening-inner">
+      <div class="eyebrow">A little world, made for you</div>
+      <div class="emblem">✦</div>
+      <h1 class="opening-name" id="opening-name">YOUR NAME</h1>
+      <p class="opening-sub">A story made just for you</p>
+      <button class="btn" id="begin">Open your story&nbsp; ✦</button>
+    </div>
+  </section>
+
+  <section id="book-scene" aria-label="Animasi buku">
+    <div class="book-wrap">
+      <div class="book" id="book">
+        <div class="book-pages"></div>
+        <div class="book-cover"><div><small>A special edition</small><h2 id="book-name">Your Name</h2><small>Made with care</small></div></div>
+      </div>
+      <div class="book-instruction">A little story is waiting for you ✦</div>
+    </div>
+  </section>
+
+  <main id="website">
+    <header><div class="brand">A Birthday Book</div><div class="header-note">A STORY MADE JUST FOR YOU ✦</div></header>
+
+    <section class="hero">
+      <div class="hero-content reveal">
+        <div class="eyebrow">A day worth remembering</div>
+        <button class="name-button" id="profile-button">Your Name</button>
+        <p class="click-hint">✦ click the name to discover ✦</p>
+        <div class="welcome">WELCOME TO YOUR SPECIAL WORLD</div>
+        <p class="welcome-sub">A little collection of moments, memories, and wishes.</p>
+      </div>
+    </section>
+
+    <div class="marquee"><div class="marquee-track">
+      <span>HAPPY BIRTHDAY ✦ SPECIAL PERSON ✦ BEST MEMORIES ✦ TODAY IS YOUR DAY ✦ AL ✦ GIBRAN ✦ QAISHAR ✦  </span>
+      <span>HAPPY BIRTHDAY ✦ SPECIAL PERSON ✦ BEST MEMORIES ✦ TODAY IS YOUR DAY ✦ AL ✦ GIBRAN ✦ QAISHAR ✦ </span>
+    </div></div>
+
+    <section class="section">
+      <div class="section-title reveal"><div class="eyebrow">A little surprise</div><h2>Made just for you</h2><p>One picture, one little gift, and a wish from me.</p></div>
+      <div class="gift-layout">
+        <div class="photo-frame reveal">
+          <img src="images/foto1.jpg" alt="Foto utama teman" class="main-photo">
+          <div class="frame-caption">A moment to remember</div>
+        </div>
+        <div class="gift-area reveal">
+          <div class="eyebrow">Something for you</div>
+          <button class="gift-button" id="gift-button" aria-label="Buka kotak hadiah" aria-expanded="false">
+            <div class="gift-box" id="gift-box"><div class="gift-base"></div><div class="ribbon-v"></div><div class="ribbon-h"></div><div class="gift-lid"></div><div class="bow"></div></div>
+          </button>
+          <p class="gift-hint" id="gift-hint">Tap the gift to open it ✦</p>
+          <div class="balloons" id="balloons"></div>
+          <article class="birthday-card" id="birthday-card"><div class="eyebrow">A birthday wish</div><h3>Happy Birthday!</h3><p>Semoga hari-harimu dipenuhi hal-hal baik, cerita yang menyenangkan, dan orang-orang yang tulus. Terima kasih sudah menjadi bagian dari cerita ini. Keep being wonderful! ✦</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section">
+      <div class="section-title reveal"><div class="eyebrow">Captured moments</div><h2>Little Memories</h2><p>15 little moments, kept in one place. Click any photo to see it bigger.</p></div>
+      <div class="gallery" id="gallery">
+        <button class="gallery-card card-tall reveal" type="button"><img src="images/foto1.jpg" alt="Memory 1" loading="lazy"><span>Memory No. 01</span></button>
+        <button class="gallery-card card-wide reveal" type="button"><img src="images/foto2.jpg" alt="Memory 2" loading="lazy"><span>Memory No. 02</span></button>
+        <button class="gallery-card card-short reveal" type="button"><img src="images/foto3.jpg" alt="Memory 3" loading="lazy"><span>Memory No. 03</span></button>
+        <button class="gallery-card card-tall reveal" type="button"><img src="images/foto4.jpg" alt="Memory 4" loading="lazy"><span>Memory No. 04</span></button>
+        <button class="gallery-card card-short reveal" type="button"><img src="images/foto5.jpg" alt="Memory 5" loading="lazy"><span>Memory No. 05</span></button>
+        <button class="gallery-card card-wide reveal" type="button"><img src="images/foto6.jpg" alt="Memory 6" loading="lazy"><span>Memory No. 06</span></button>
+        <button class="gallery-card card-tall reveal" type="button"><img src="images/foto7.jpg" alt="Memory 7" loading="lazy"><span>Memory No. 07</span></button>
+        <button class="gallery-card card-short reveal" type="button"><img src="images/foto8.jpg" alt="Memory 8" loading="lazy"><span>Memory No. 08</span></button>
+        <button class="gallery-card card-wide reveal" type="button"><img src="images/foto9.jpg" alt="Memory 9" loading="lazy"><span>Memory No. 09</span></button>
+        <button class="gallery-card card-tall reveal" type="button"><img src="images/foto10.jpg" alt="Memory 10" loading="lazy"><span>Memory No. 10</span></button>
+        <button class="gallery-card card-short reveal" type="button"><img src="images/foto11.jpg" alt="Memory 11" loading="lazy"><span>Memory No. 11</span></button>
+        <button class="gallery-card card-wide reveal" type="button"><img src="images/foto12.jpg" alt="Memory 12" loading="lazy"><span>Memory No. 12</span></button>
+        <button class="gallery-card card-tall reveal" type="button"><img src="images/foto13.jpg" alt="Memory 13" loading="lazy"><span>Memory No. 13</span></button>
+        <button class="gallery-card card-short reveal" type="button"><img src="images/foto14.jpg" alt="Memory 14" loading="lazy"><span>Memory No. 14</span></button>
+        <button class="gallery-card card-wide reveal" type="button"><img src="images/foto15.jpg" alt="Memory 15" loading="lazy"><span>Memory No. 15</span></button>
+      </div>
+    </section>
+    <footer>MADE WITH CARE, JUST FOR YOU&nbsp; ✦</footer>
+  </main>
+
+  <dialog id="profile-dialog"><div class="dialog-content"><button class="close" data-close="profile-dialog" aria-label="Tutup">&times;</button><div class="eyebrow">A little about you</div><h2 id="profile-title">The person behind the story</h2><p id="profile-text">Di sini nanti kamu bisa menuliskan hal-hal yang kamu tahu tentang temanmu.</p><button class="btn" data-close="profile-dialog">Close</button></div></dialog>
+  <dialog id="photo-dialog"><div class="dialog-content photo-dialog-content"><button class="close" data-close="photo-dialog" aria-label="Tutup">&times;</button><img id="large-photo" src="" alt="Foto diperbesar"></div></dialog>
+</body>
+</html>
